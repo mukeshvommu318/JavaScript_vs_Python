@@ -244,6 +244,32 @@
 	
 			print(my_dict["say_hello"]("Mukesh"))  # Output: Hello, Mukesh!
 
+## Todos_Application-1
+### Agenda : HTML input(CheckBox) -> HTML Elements(Label) -> Dom Manipulations(html for setAttributes)
+
+#### Add Check Box Statically
+
+	<input type="checkbox">
+
+### Add Label to CheckBox
+	<input type="checkbox" id="checkid"> 
+    	<label for="checkid">Graduated</label>
+
+### Create CheckBox Dynamically using JavaScript
+	let checkboxElement = document.getElementById("input")
+	checkboxElement.type="checkbox"
+	checkboxElement.id="checkboxid"
+	document.body.appendChild(checkboxElement)
+
+ 	let labelElement = document.getElementById("label")
+	labelElement.htmlFor ="checkboxid"
+	labelElement.textContent="Graduated"
+	document.body.appendChild(labelElement)
+
+ ### setAttribute() 
+ 	-> It allows to add attribute to the HTML element. if the attribute exists it will replace to that attribute
+  	labelElement.setAttribute("for","checkboxid")
+ 	
 
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
