@@ -345,3 +345,6 @@
 	
 	-> Remove the class attribute
 		h1Element.classList.remove("heading");
+
+	->setAttribute() : It allows to add attribute to the HTML element. if the attribute exists it will replace to that attribute
+		labelElement.setAttribute("for","checkboxid")
