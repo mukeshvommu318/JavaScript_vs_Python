@@ -61,8 +61,30 @@
  	 		return "Hello, " + name + "!";
 		}
 		console.log(greet("Mukesh"));  // Output: Hello, Mukesh!
-
-	-> Data Structures
+  
+    -> Loops 
+	    	-> Basic Loop (for loop)
+	     		for (let i = 0; i < 5; i++) {
+	  			console.log(i);
+			}
+	  	-> For_of Loop : Used to iterate Array
+	   		const fruits = ['apple', 'banana', 'cherry'];
+			for (let fruit of fruits) {
+			  console.log(fruit);
+			}
+		-> For_in Loop : used to iterate Object
+	 		const user = { name: "Alice", age: 25 };
+			for (let key in user) {
+			  console.log(key, user[key]);
+			}
+	  	-> While Loop : 
+	   		let i = 0;
+			while (i < 5) {
+			  console.log(i);
+			  i++;
+			}
+  
+    -> Data Structures
  		JavaScript 
 		-> Array holds an ordered sequence of items
 		-> Array creation :  let myArray = [1,"two",3,3.5]
@@ -171,6 +193,25 @@
     	     	     return f"Hello, {name}!"
 		message = greet("Mukesh")
 		print(message)                    # Output: Hello, Mukesh!
+  
+     -> Loops 
+	    	-> Basic Loop (for loop)
+	     		for i in range(5):
+    			     print(i)
+	  	-> For_in Loop : Used to iterate List
+    			fruits = ['apple', 'banana', 'cherry']
+			for fruit in fruits:
+			    print(fruit)	
+		-> dict.items() : used to iterate dictionary
+	 		user = { "name": "Alice", "age": 25 }
+			for key, value in user.items():
+			    print(key, value)
+
+	  	-> While Loop : 
+	   		i = 0
+			while i < 5:
+			    print(i)
+			    i += 1
 
     -> DataStructures in python
     	Python
