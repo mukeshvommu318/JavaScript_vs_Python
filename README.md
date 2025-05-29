@@ -292,11 +292,11 @@
 
 	<input type="checkbox">
 
-### Add Label to CheckBox
+#### Add Label to CheckBox
 	<input type="checkbox" id="checkid"> 
     	<label for="checkid">Graduated</label>
 
-### Create CheckBox Dynamically using JavaScript
+#### Create CheckBox Dynamically using JavaScript
 	let checkboxElement = document.getElementById("input")
 	checkboxElement.type="checkbox"
 	checkboxElement.id="checkboxid"
@@ -307,10 +307,11 @@
 	labelElement.textContent="Graduated"
 	document.body.appendChild(labelElement)
 
- ### setAttribute() 
+ #### setAttribute() 
  	-> It allows to add attribute to the HTML element. if the attribute exists it will replace to that attribute
   	labelElement.setAttribute("for","checkboxid")
  	
+### Agenda : InputElement (placeholder) -> Dom Manipulations(removeChild(), classList.toggle() ) -> Js Built-in function ( alert() )
 
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
