@@ -312,7 +312,9 @@
   	labelElement.setAttribute("for","checkboxid")
  	
 ### Agenda : InputElement (placeholder) -> Dom Manipulations(removeChild(), classList.toggle() ) -> Js Built-in function ( alert() )
-
+#### classList.toggle() 
+	-> Adds a class if it's not present and removes it if it is present
+ 	element.classList.toggle("className");
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
  		using : document.getElementById()
@@ -348,3 +350,6 @@
 
 	->setAttribute() : It allows to add attribute to the HTML element. if the attribute exists it will replace to that attribute
 		labelElement.setAttribute("for","checkboxid")
+
+   	-> classList.toggle()  :  Adds a class if it's not present and removes it if it is present
+    		element.classList.toggle("className");
