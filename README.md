@@ -315,6 +315,18 @@
 #### classList.toggle() 
 	-> Adds a class if it's not present and removes it if it is present
  	element.classList.toggle("className");
+
+#### removeChild()
+	-> It remove the Child Element/node from Parent Node
+ 	parentNode.removeChild(childNode);
+
+#### PlaceHolder
+	<input type="text" placeholder="What need to be done"/>
+
+#### alert()
+	displays a popup dialog with a message and an OK button
+ 
+ 	
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
  		using : document.getElementById()
