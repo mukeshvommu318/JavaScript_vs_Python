@@ -350,6 +350,16 @@
 
   	getItem() : used to get item from Local Storage
    		    - syntax : localStorage.getItem("key")
+	 	    - If we get the key which is not present. It returns 'null'
+
+        null      : When to use the null -> when the user want to assign the value to variable after some time we can use null(initially - empty value, Later- real Value)
+       		   Ex : let userData = null;
+                        userData = { name: "Kiran", age: 25 };
+		   - console.log(userData) o/p : null
+     		   - console.log(typeof(userData)) o/p: object
+
+	textArea Element(HtML)  : Multiple- line of Input
+ 				 - syntax : <textarea rows="8" cols="55"></textarea>
  	
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
