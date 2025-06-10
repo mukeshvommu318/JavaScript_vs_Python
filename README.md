@@ -355,6 +355,6 @@
    	-> classList.toggle()  :  Adds a class if it's not present and removes it if it is present
     		element.classList.toggle("className");
 
-      	-> removeChild() : It removes the Child nODE from the Parent Node
+      	-> removeChild() : It removes the Child Node(element) from the Parent Node(element)
  			parentNode.removeChild(childNode);
 
