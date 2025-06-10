@@ -325,7 +325,31 @@
 
 #### alert()
 	displays a popup dialog with a message and an OK button
- 
+
+### Agenda : Local Storage(setItem(),getItem()) -> Value(null) -> HTML Element(textArea Element)
+#### Reloads :
+	When the user reloads the page the data(variables,objects,functions) got destroyed. The data Should be Persisted(data has been saved)
+#### Local Storage
+	Execution Context : It is the Environment where the Js Code is Executed. It contains all the variables,functions,Objects
+ 			   - When the user reloads the page Execution Context is Destroyed(all variables, functions... gone) and Again execution starts from line 1 Onwards again it will create   			     variables and functions..(memeory is freeUp)
+       
+       Storage Mechanisms : Client-Side Data Storage 
+       				- Storing the Data on the Client(Users's machine/personal Laptop)
+	   			- Storage Mechanisms : Local Storage, Session Storage, Cookies, IndexedDB,....
+	   		  : Server-Side Data Stroage
+				- Storing the Data on Servers using DataBases
+    				- Storage Mechanisms : Sql Databases, NoSql Databases
+
+ 	Local Storage : To store the data Locally within the User's Browser
+  			- It is the Storage Object. It store the Data in the form of Key-Value pairs. (note: Value Should be in String)
+     			- methods provided by th JS for Local Storage (setItem(), getItem(), clear(), removeItem())
+
+ 	setItem()  : Used to set the key-value in the localStorage
+  		     - syntax: localStorage.setItem("key","Value");
+		Access the LocalStorage : Inspect -> Application -> Local storage
+
+  	getItem() : used to get item from Local Storage
+   		    - syntax : localStorage.getItem("key")
  	
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
