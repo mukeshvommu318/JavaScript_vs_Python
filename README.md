@@ -347,9 +347,14 @@
 	
 	-> Remove the class attribute
 		h1Element.classList.remove("heading");
+  
 
 	->setAttribute() : It allows to add attribute to the HTML element. if the attribute exists it will replace to that attribute
 		labelElement.setAttribute("for","checkboxid")
 
    	-> classList.toggle()  :  Adds a class if it's not present and removes it if it is present
     		element.classList.toggle("className");
+
+      	-> removeChild() : It removes the Child nODE from the Parent Node
+ 			parentNode.removeChild(childNode);
+
