@@ -369,31 +369,31 @@
   		- Storing the Data(Client/Server)
     		- Exchanging the Data Between the Client and Sever
       	-> Supported Types
-       
-       		JavaScript	JSON
-	 	- 10		- 10
-   		- "Hello"	- "Hello"
-     		- true		- true
-       		- [1,2,3]	- [1,2,3]
-	 	- null 		- null
-   		- {		- {                              // key in Json Should be in String format
-     		    name:"Mukesh",   "name":"Mukesh",
-	            age:23,          "age":23,
-	     	    male:true        "male":true
-	   	  }               }
+	       		JavaScript	JSON
+		 	- 10		- 10
+	   		- "Hello"	- "Hello"
+	     		- true		- true
+	       		- [1,2,3]	- [1,2,3]
+		 	- null 		- null
+	   		- {		- {                              // key in Json Should be in String format
+	     		    name:"Mukesh",   "name":"Mukesh",
+		            age:23,          "age":23,
+		     	    male:true        "male":true
+		   	  }               }
        	-> To convert the Data into JSON format We have JSON method provided by JavaScript
-		- JSON.parse()
-  		- JSON.stringify()
-    	-> JSON.stringify() : Convert the Object into String
+			- JSON.parse()
+	  		- JSON.stringify()
+     	-> JSON.stringify() : Convert the Object into String
      		Ex: let profile = { name:"Mukesh",age:23,male:true}
        		    let strinifyProfile = JSON.stringify(profile)
 	     	    console.log(stringifyProfile)             // '{name:"Mukesh",age:23,male:true}'   //So that we can Store this String has value in localStorage
  		    console.log(typeof(stringifProfile))      // String
-	-> JSON.parse() : Convert String to Object
- 		Ex : let Profile = '{name:Mukesh",age:23,male:true}'
-   		     let parseProfile = JSON.parse(Profile)
-	  	     console.log(parseProfile)               // {name:"Mukesh",age:23,male:true}
-	 	     console.log(typeof(parseProfile))       // Object
+		-> JSON.parse() : Convert String to Object
+	 		Ex : let Profile = '{name:Mukesh",age:23,male:true}'
+	   		     let parseProfile = JSON.parse(Profile)
+		  	     console.log(parseProfile)               // {name:"Mukesh",age:23,male:true}
+		 	     console.log(typeof(parseProfile))       // Object
+	 
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
  		using : document.getElementById()
