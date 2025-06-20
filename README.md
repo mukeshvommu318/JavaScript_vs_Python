@@ -393,6 +393,43 @@
 	   		     let parseProfile = JSON.parse(Profile)
 		  	     console.log(parseProfile)               // {name:"Mukesh",age:23,male:true}
 		 	     console.log(typeof(parseProfile))       // Object
+
+ ### Agenda : splice(), findIndex()
+ 	-> Splice Method :  used to change the context of an Array(Add,Remove,Replace items)
+  			    -> It returns Deleted items Array
+  			Syntax : Removing 
+     				arr.splice(Start,DeleteCount)
+     				Start : Index
+	 			DeleteCount : Number of items should be delete 
+     			Example : 
+	     			let fruits = ["apple", "banana", "cherry", "mango"];
+				fruits.splice(1, 2); 	// Start at index 1, remove 2 items
+				console.log(fruits); 	// Output: ["apple", "mango"]
+
+    			Syntax : Adding  (DeleteCount=0)
+       				arr.splice(Start,DeleteCount,Item1,Item2)       
+	   			Items1,2 : Items to be added from Start Index
+       			Example :
+	  			let colors = ["red", "blue", "green"]; 
+				colors.splice(1, 0, "yellow", "orange");     // Add "yellow" and "orange" at index 1
+				console.log(colors);     	            // Output: ["red", "yellow", "orange", "blue", "green"]
+
+     			Syntax : Replacing (DeleteCount = n.o of Items)
+				 arr.splice(Start,DeleteCount,Item1,Item2)  
+     			Example : let fruits = ["apple", "banana", "cherry", "mango"];
+				  fruits.splice(1, 2, "grape", "kiwi");// Replace "banana" and "cherry" with "grape" and "kiwi"
+				  console.log(fruits); // Output: ["apple", "grape", "kiwi", "mango"]
+
+       	-> findIndex() : It returns the First Item in Array that Satisfys the Condition. If the Condition is not satisfy it returns -1
+			-> Syntax : arr.findIndex(fuunction(element,index,array){} / callback(element,index,array))
+   			-> Example : 
+      					let numbers = [10, 25, 60, 40];
+					let index = numbers.findIndex(function(num) {
+					  return num > 50;
+					});
+     					console.log(index);      // Output: 2
+
+
 	 
 ## **DOM**
 	-> How to Access the HTML Element using JavaScriprt
