@@ -369,6 +369,7 @@
   		- Storing the Data(Client/Server)
     		- Exchanging the Data Between the Client and Sever
       	-> Supported Types
+       
        		JavaScript	JSON
 	 	- 10		- 10
    		- "Hello"	- "Hello"
