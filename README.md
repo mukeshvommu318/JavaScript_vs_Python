@@ -429,13 +429,16 @@
 					});
      					console.log(index);      // Output: 2
 
-### Aggenda : includes()
+### Aggenda : includes(), concat()
 		-> To check the lement present in array/string, it returns boolean value
 		-> syntax : arr.includes(value/item/element)
   		-> Example :
 	    			const fruits = ['apple', 'banana', 'mango'];
 				console.log(fruits.includes('banana'));  	// true
 				console.log(fruits.includes('grapes'));  	// false
+    		concat() : 
+      			-> Syntax : let newArray = array1.concat(array2, array3, ...);
+
 
 	 
 ## **DOM**
