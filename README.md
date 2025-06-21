@@ -429,6 +429,12 @@
 					});
      					console.log(index);      // Output: 2
 
+### Aggenda : includes()
+		-> syntax : arr.includes(value/item/element)
+  		-> Example :
+    			const fruits = ['apple', 'banana', 'mango'];
+			console.log(fruits.includes('banana'));  	// true
+			console.log(fruits.includes('grapes'));  	// false
 
 	 
 ## **DOM**
