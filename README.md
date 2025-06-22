@@ -439,6 +439,12 @@
     		concat() : 
       			-> Syntax : let newArray = array1.concat(array2, array3, ...);
 
+### Array Methods
+		-> lastIndexOf() : It returns last index of given number
+  			Example :
+    				let str = "hello world";
+				let index = str.lastIndexOf("l");        // Output: 9
+
 
 	 
 ## **DOM**
