@@ -442,8 +442,24 @@
 ### Array Methods
 		-> lastIndexOf() : It returns last index of given number
   			Example :
-    				let str = "hello world";
-				let index = str.lastIndexOf("l");        // Output: 9
+	    				let str = "hello world";
+					let index = str.lastIndexOf("l");        // Output: 9
+
+      		-> sort() : acending and Decending order
+			- arr.sort()   // lexicographic
+   				Example :
+       						let numbers = [10, 2, 5, 1];
+						numbers.sort();  // Output: [1, 10, 2, 5] → NOT numerical!
+      			- arr.sort((a,b)=>a-b)     // ascending
+	 		- arr.sort((a,b)=>b-a)     // decending
+
+    		-> join() :  join elements of a list or array into a single string, using a separator
+      				Example: 
+	  					let arr = [1, 2, 3];
+						arr.join("-");  // Output: "1-2-3"
+						arr.join("");   // Output: "123"
+
+		-> 
 
 
 	 
