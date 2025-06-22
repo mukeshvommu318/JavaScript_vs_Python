@@ -429,6 +429,14 @@
 					});
      					console.log(index);      // Output: 2
 
+ 	-> find()   : Returns the first element in the array that matches the condition.
+  			Syntax : arr.find(function(element,index,array){.....})
+     			Example :
+					let numbers = [1, 3, 5, 6, 8];
+					let result = numbers.find(num => num % 2 === 0);
+					console.log(result);  // Output: 6
+
+
 ### Aggenda : includes(), concat()
 		-> To check the lement present in array/string, it returns boolean value
 		-> syntax : arr.includes(value/item/element)
