@@ -446,12 +446,18 @@
 					let index = str.lastIndexOf("l");        // Output: 9
 
       		-> sort() : acending and Decending order
-			- arr.sort()   // lexicographic
-   				Example :
-       						let numbers = [10, 2, 5, 1];
-						numbers.sort();  // Output: [1, 10, 2, 5] → NOT numerical!
-      			- arr.sort((a,b)=>a-b)     // ascending
-	 		- arr.sort((a,b)=>b-a)     // decending
+					- arr.sort()   // lexicographic
+		   				Example :
+		       						let numbers = [10, 2, 5, 1];
+								numbers.sort();  // Output: [1, 10, 2, 5] → NOT numerical!
+		      			- arr.sort((a,b)=>a-b)     // ascending
+			 		- arr.sort((a,b)=>b-a)     // decending
+
+	 			In Python :  list.sort(key=None, reverse=False)
+     					Example: 
+	  					numbers = [5, 2, 9, 1]
+						numbers.sort(reverse=True)
+						print(numbers)  # Output: [9, 5, 2, 1]
 
     		-> join() :  join elements of a list or array into a single string, using a separator
       				Example: 
@@ -459,7 +465,25 @@
 						arr.join("-");  // Output: "1-2-3"
 						arr.join("");   // Output: "123"
 
-		-> 
+      				In Python : separator.join(iterable)
+						words = ["Hello", "World"]
+						result = " ".join(words)
+						print(result)  			# Output: "Hello World"
+
+
+		-> slice(start,end)  : extract a portion of an array, list, or string without modifying the original.
+  
+  				Example :
+      						let arr = [10, 20, 30, 40, 50];
+						let result = arr.slice(1, 4);          // Output: [20, 30, 40]
+      						arr.slice(-3);       // Output: [30, 40, 50]
+						arr.slice(-4, -1);   // Output: [20, 30, 40]
+
+      				In Python : [start:end:step]
+	  					arr = [10, 20, 30, 40, 50]
+						result = arr[1:4]  # Output: [20, 30, 40]
+		
+		
 
 
 	 
