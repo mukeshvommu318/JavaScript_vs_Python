@@ -488,10 +488,18 @@
 						arr.slice(-4, -1);   // Output: [20, 30, 40]
 
       				In Python : [start:end:step]
-	  					arr = [10, 20, 30, 40, 50]
-						result = arr[1:4]  # Output: [20, 30, 40]
+	  					list = [10, 20, 30, 40, 50]
+						result = list[1:4]  # Output: [20, 30, 40]
 		
-		
+		-> push(),pop(),shift(),unshift() 
+  					-> Add element at last  ( arr.push(element) )
+       					-> Remove the lement at last (arr.pop())
+	    				-> Remove the element at first  ( arr.shift())
+	 				-> Add element at first ( arr.unshift(element) )
+
+	  			In python : push(),pop(), pop(0), list.insert(0, element)
+
+      		-> 
 
 
 	 
