@@ -352,6 +352,9 @@
    		    - syntax : localStorage.getItem("key")
 	 	    - If we get the key which is not present. It returns 'null'
 
+	removeItem() 
+      			- Syntax : localStorage.removeItem(key)
+
         null      : When to use the null -> when the user want to assign the value to variable after some time we can use null(initially - empty value, Later- real Value)
        		   Ex : let userData = null;
                         userData = { name: "Kiran", age: 25 };
